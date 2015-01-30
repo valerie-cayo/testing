@@ -1,0 +1,231 @@
+/***************************************
+GENERAL
+***************************************/
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+img {
+	max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+/***************************************
+HEADER
+***************************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+  }
+
+header h1 {
+	font-family: 'Raleway', sans-serif;
+	margin:15px 0;
+	font-size:1.75em;
+	line-height: 0.8em;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	font-size:2.50em;
+	margin: 0 auto 10px;
+}
+
+#subject {
+	text-align: center;
+}
+
+.profile-photo{
+	clear: both;
+	display: block;
+	max-width: 100%;
+	/*in mobile size:
+		border-radius: 100%;*/
+	margin: 5px auto 10px;
+}
+
+/***************************************
+NAVIGATION
+***************************************/
+nav {
+	clear: both;
+  text-align: center;
+  padding: 10px 0;
+  margin: 10 0 5px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  padding: 15px 10px;
+}
+
+nav li:nth-child(4n) {
+	margin-top:30px;
+}
+
+
+/***************************************
+FOOTER
+***************************************/
+footer {
+	font-size: 0.7em;
+	clear: both;
+	padding-top: 50px;
+}
+footer p {
+	text-align: center;
+}
+
+/***************************************
+PAGE: HOME
+***************************************/
+
+#about {
+	padding-top: 15px;
+
+	clear: both;
+}
+
+#three-icons{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#three-icons li {
+	text-align: center;
+	float: left;
+	width: 40%;
+	margin:15px 30%;
+}
+
+/***************************************
+PAGE: PROJECTS
+***************************************/
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+#gallery li {
+	float: left;
+	width: 95%;
+	margin: 2.5%;
+
+
+}
+/***************************************
+PAGE: CONTACT
+***************************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.facebook a {
+  background-image: url('../img/facebook.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  color: #714674;
+}
+
+/* teal header */
+header {
+  background: #65bfbf;
+}
+
+
+/* logo text */
+#logo a {
+	color: #513553;
+}
+
+/*header texts c*/
+h1, h2, a {
+  color: white;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #513553;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: white;
+}
+
+/*profile photo*/
+.profile-background {
+	background: #c2e4e4;
+}
+
+ul.contact-info a {
+	color: #f26d7d;
+}

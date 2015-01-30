@@ -1,0 +1,70 @@
+@media screen and (min-width: 480px){
+	
+	/***************************************
+	PAGE: CONTACT
+	***************************************/
+
+		.primary{
+			width: 50%;
+			float: left;
+		}
+
+		.secondary {
+			width: 4	0%;
+			float: right;
+		}
+
+		nav li:nth-child(4n) {
+		margin-top:0;
+	}
+
+	/***************************************
+		PAGE: HOME
+	***************************************/
+
+	#three-icons li {
+			width: 22.3333%;
+			margin: 10px 5.5%;
+	  }
+	  
+		#three-icons li:nth-child(4n) {
+		  clear: left;
+		}
+
+}
+
+@media screen and (min-width: 660px){
+
+	h2 {
+
+		margin: 0 auto 30px;
+	}
+
+	/***************************************
+	PAGE: HOME
+	***************************************/
+
+	/*decreasing the width of the logo*/
+	#logo {
+	    width: auto;
+	}
+
+	/*floating nav right*/
+	nav {
+		clear: none;
+		text-align: right;
+		padding: 10px 20px 0 0;
+		margin: 5px 0 5px;
+	}
+
+	nav a {
+	  padding: 15px 15px;
+	}
+
+	#three-icons li {
+		width: 17.3333%;
+		margin: 10px 8%;
+  }
+	
+		
+}
