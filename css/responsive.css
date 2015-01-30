@@ -22,7 +22,7 @@
 		PAGE: HOME
 	***************************************/
 
-	#three-icons li {
+	/*#three-icons li {
 			width: 22.3333%;
 			margin: 10px 5.5%;
 	  }
@@ -30,7 +30,7 @@
 		#three-icons li:nth-child(4n) {
 		  clear: left;
 		}
-
+	*/
 }
 
 @media screen and (min-width: 660px){
